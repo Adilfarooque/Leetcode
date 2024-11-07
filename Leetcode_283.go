@@ -1,15 +1,20 @@
 package main
 
-
+import "fmt"
 
 //Move All zero into the end
-func MoveAllzero(nums []int){
-	nonZero := 0
-    for i := 0; i < len(nums); i++ {
-        nums[nonZero],nums[i] = nums[i], nums[nonZero]
-        nonZero++
-    }
+func MoveAllzero(nums []int) {
+	fast, slow := 0, 0
+	for fast < len(nums) {
+		if nums[fast] != 0 {
+			nums[fast], nums[slow] = nums[slow], nums[fast]
+			slow++
+		}
+		fast++
+	}
 }
-func main(){
-	
+func main() {
+	numbers := []int{1, 2, 0, 1, 3, 0, 22, 0, 4, 6}
+	MoveAllzero(numbers)
+	fmt.Println(numbers)
 }
