@@ -21,5 +21,9 @@ func main() {
 
 	//Sorted Squares
 	nums := []int{-4, -1, 0, 3, 10}
-	fmt.Print("Square of sorted array:",SortedSquares(nums))
+	fmt.Println("Square of sorted array:",SortedSquares(nums))
+
+	//Largest Perimeter
+	pNumbers := []int{2,1,2,4,3}
+	fmt.Println("Largest perimeters :",largestPerimeter(pNumbers))
 }
