@@ -18,4 +18,8 @@ func main() {
 	byteStr := []byte{'h', 'e', 'l', 'l', 'o'}
 	ReverseBytesOfString(byteStr)
 	fmt.Println(string(byteStr))
+
+	//Sorted Squares
+	nums := []int{-4, -1, 0, 3, 10}
+	fmt.Print("Square of sorted array:",SortedSquares(nums))
 }
