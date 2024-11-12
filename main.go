@@ -26,4 +26,9 @@ func main() {
 	//Largest Perimeter
 	pNumbers := []int{2,1,2,4,3}
 	fmt.Println("Largest perimeters :",largestPerimeter(pNumbers))
+
+
+	//Repeated N Times
+	NTimes := []int{2,1,2,5,3,2}
+	fmt.Println("Repeated elements :",repeatedNTimes(NTimes))
 }
