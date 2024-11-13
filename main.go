@@ -31,4 +31,9 @@ func main() {
 	//Repeated N Times
 	NTimes := []int{2,1,2,5,3,2}
 	fmt.Println("Repeated elements :",repeatedNTimes(NTimes))
+
+	//Valid mountain Array
+	mountain := []int{0,3,2,1}
+	fmt.Println("Valid mountain :",validMountainArray(mountain))
 }
+
