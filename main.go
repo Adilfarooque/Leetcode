@@ -35,5 +35,10 @@ func main() {
 	//Valid mountain Array
 	mountain := []int{0,3,2,1}
 	fmt.Println("Valid mountain :",validMountainArray(mountain))
+
+	//Min Deletion Size
+	strs := []string{"cba","daf","ghi"}
+	fmt.Println("Min Deletion Size :",MinDeletionSize(strs))
+
 }
 
