@@ -45,4 +45,10 @@ func main() {
 	s = "IDID"
 	fmt.Println("DIStringMatch :", diStringMatch(s))
 
+
+	//Reverse only letters
+	s = "a-bC-dEf-ghIj"
+	fmt.Println("Reverse only letters :", reverseOnlyLetters(s))
+	s = "Test1ng-Leet=code-Q!"
+	fmt.Println("Reverse only letters :", reverseOnlyLetters(s))
 }
