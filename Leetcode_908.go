@@ -1,7 +1,7 @@
 package main
 
 
-func smallestRangeI(nums []int, k int) int {
+func SmallestRangeI(nums []int, k int) int {
     min, max := nums[0], nums[0]
     for _, v := range nums {
         if v < min {
