@@ -51,4 +51,14 @@ func main() {
 	fmt.Println("Reverse only letters :", reverseOnlyLetters(s))
 	s = "Test1ng-Leet=code-Q!"
 	fmt.Println("Reverse only letters :", reverseOnlyLetters(s))
+
+	//Sort Array by Parity
+	nums = []int{3, 1, 2, 4}
+	fmt.Println("Sort Array by Parity :", SortArrayByParity(nums))
+
+	//Is Monotonic
+	nums = []int{1, 2, 2, 3}
+	fmt.Println("Is Monotonic :", isMonotonic(nums))
+	nums = []int{6, 5, 4, 4}
+	fmt.Println("Is Monotonic :", isMonotonic(nums))
 }
