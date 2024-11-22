@@ -61,4 +61,9 @@ func main() {
 	fmt.Println("Is Monotonic :", isMonotonic(nums))
 	nums = []int{6, 5, 4, 4}
 	fmt.Println("Is Monotonic :", isMonotonic(nums))
+
+	//uncommonFromSentences
+	s1 := "this apple is sweet"
+	s2 := "this apple is sour"
+	fmt.Println("uncommonFromSentences :", uncommonFromSentences(s1, s2))
 }
