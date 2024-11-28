@@ -45,7 +45,6 @@ func main() {
 	s = "IDID"
 	fmt.Println("DIStringMatch :", diStringMatch(s))
 
-
 	//Reverse only letters
 	s = "a-bC-dEf-ghIj"
 	fmt.Println("Reverse only letters :", reverseOnlyLetters(s))
@@ -66,4 +65,13 @@ func main() {
 	s1 := "this apple is sweet"
 	s2 := "this apple is sour"
 	fmt.Println("uncommonFromSentences :", uncommonFromSentences(s1, s2))
+
+	//buddyStrings
+	test := "ab"
+	goal := "ba"
+	fmt.Println("buddyStrings :", buddyStrings(test, goal))
+	test = "ab"
+	goal = "ab"
+	fmt.Println("buddyStrings :", buddyStrings(test, goal))
+	s = "aa"
 }
