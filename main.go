@@ -74,4 +74,15 @@ func main() {
 	goal = "ab"
 	fmt.Println("buddyStrings :", buddyStrings(test, goal))
 	s = "aa"
+
+	//backspaceCompare
+	test = "ab#c"
+	goal = "ad#c"
+	fmt.Println("backspaceCompare :", backspaceCompare(test, goal))
+	test = "ab"
+	goal = "c#d#"
+	fmt.Println("backspaceCompare :", backspaceCompare(test, goal))
+	test = "a#c"
+	goal = "b"
+	fmt.Println("backspaceCompare :", backspaceCompare(test, goal))
 }
