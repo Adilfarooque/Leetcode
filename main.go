@@ -85,4 +85,10 @@ func main() {
 	test = "a#c"
 	goal = "b"
 	fmt.Println("backspaceCompare :", backspaceCompare(test, goal))
+
+	//largegroupPositions
+	s = "abbxxxxzzy"
+	fmt.Println("largegroupPositions :", largeGroupPositions(s))
+	s = "abc"
+	fmt.Println("largegroupPositions :", largeGroupPositions(s))
 }
