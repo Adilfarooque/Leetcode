@@ -91,4 +91,10 @@ func main() {
 	fmt.Println("largegroupPositions :", largeGroupPositions(s))
 	s = "abc"
 	fmt.Println("largegroupPositions :", largeGroupPositions(s))
+
+	//shortestToChar
+	s = "loveleetcode"
+	c := byte('e')
+	fmt.Println("shortestToChar :", shortestToChar(s, c))
+
 }
