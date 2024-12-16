@@ -11,4 +11,3 @@ func SortedSquares(nums []int) []int {
 	sort.Ints(result)
 	return result
 }
-

@@ -7,7 +7,7 @@ func validMountainArray(arr []int) bool {
 		return false
 	}
 
-	left , right := 0 , n-1
+	left, right := 0, n-1
 
 	for left+1 < n-1 && arr[left] < arr[left+1] {
 		left++

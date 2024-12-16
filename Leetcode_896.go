@@ -10,6 +10,6 @@ func isMonotonic(nums []int) bool {
 			decrement = false
 		}
 	}
-	return increment || decrement 
+	return increment || decrement
 
 }

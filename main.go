@@ -97,4 +97,9 @@ func main() {
 	c := byte('e')
 	fmt.Println("shortestToChar :", shortestToChar(s, c))
 
+	//addedInteger
+	nums1 := []int{2,6,4}
+	nums2 := []int{9,7,5}
+	fmt.Println("addedInteger :", addedInteger(nums1, nums2))
+
 }
