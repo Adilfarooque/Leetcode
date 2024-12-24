@@ -102,4 +102,12 @@ func main() {
 	nums2 := []int{9,7,5}
 	fmt.Println("addedInteger :", addedInteger(nums1, nums2))
 
+	//search
+	nums = []int{2,5,6,0,0,1,2}
+	target := 0
+	fmt.Println("search :", search(nums, target))
+	nums = []int{2,5,6,0,0,1,2}
+	target = 3
+	fmt.Println("search :", search(nums, target))
+
 }
