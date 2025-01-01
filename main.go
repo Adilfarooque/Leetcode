@@ -110,4 +110,12 @@ func main() {
 	target = 3
 	fmt.Println("search :", search(nums, target))
 
+	//maxScore
+	s = "011101"
+	fmt.Println("maxScore :", maxScore(s))
+	s = "00111"
+	fmt.Println("maxScore :", maxScore(s))
+	s = "1111"
+	fmt.Println("maxScore :", maxScore(s))
+
 }

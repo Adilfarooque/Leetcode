@@ -5,7 +5,7 @@ import (
 	"unicode"
 )
 
-func mostCommonWords(paragraph string, banned []string) string {
+func MostCommonWords(paragraph string, banned []string) string {
 	ban := map[string]bool{}
 	for _, s := range banned {
 		ban[s] = true
