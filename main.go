@@ -118,4 +118,9 @@ func main() {
 	s = "1111"
 	fmt.Println("maxScore :", maxScore(s))
 
+	//2559. Count Vowel Strings in Ranges
+	words := []string{"aba", "bcb", "ece", "aa", "e"}
+	queries := [][]int{{0, 2}, {1, 4}, {1, 1}}
+	fmt.Println("Vowel Strings :", vowelStrings(words, queries))
+
 }
