@@ -98,15 +98,15 @@ func main() {
 	fmt.Println("shortestToChar :", shortestToChar(s, c))
 
 	//addedInteger
-	nums1 := []int{2,6,4}
-	nums2 := []int{9,7,5}
+	nums1 := []int{2, 6, 4}
+	nums2 := []int{9, 7, 5}
 	fmt.Println("addedInteger :", addedInteger(nums1, nums2))
 
 	//search
-	nums = []int{2,5,6,0,0,1,2}
+	nums = []int{2, 5, 6, 0, 0, 1, 2}
 	target := 0
 	fmt.Println("search :", search(nums, target))
-	nums = []int{2,5,6,0,0,1,2}
+	nums = []int{2, 5, 6, 0, 0, 1, 2}
 	target = 3
 	fmt.Println("search :", search(nums, target))
 
@@ -122,5 +122,11 @@ func main() {
 	words := []string{"aba", "bcb", "ece", "aa", "e"}
 	queries := [][]int{{0, 2}, {1, 4}, {1, 1}}
 	fmt.Println("Vowel Strings :", vowelStrings(words, queries))
+
+	//2270. Number of Ways to Split Array
+	nums = []int{10, 4, -8, 7}
+	fmt.Println("Number of Ways to Split Array :", waysToSplitArray(nums))
+	nums = []int{2, 3, 1, 0}
+	fmt.Println("Number of Ways to Split Array :", waysToSplitArray(nums))
 
 }
