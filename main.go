@@ -129,4 +129,9 @@ func main() {
 	nums = []int{2, 3, 1, 0}
 	fmt.Println("Number of Ways to Split Array :", waysToSplitArray(nums))
 
+	//prefixCount
+	words = []string{"pay", "attention", "practice", "attend"}
+	pref := "at"
+	fmt.Println("prefixCount :", prefixCount(words, pref))
+	
 }
